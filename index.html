@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anil Kolla Portfolio</title>
+
+  <link rel="shortcut icon" href="./assets/images/slogo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- Ref for particles:- https://vincentgarreau.com/particles.js/ -->
+
+  <div id="particles-js"></div>
+    <!-- count particles -->
+  <div class="count-particles">
+  <!-- #MAIN -->
+    <main>
+
+      <!-- #SIDEBAR -->
+      <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+          <figure class="avatar-box">
+            <img src="./assets/images/my-image.jpg" alt="Anil Kolla" width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Anil Kolla">Anil Kolla</h1>
+
+            <p class="title">Lead Software Engineer</p>
+            <p class="gap"></p>
+            <p class="title">Integration Specialist</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:anilkolla18@gmail.com" class="contact-link">anilkolla18@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12403777479" class="contact-link">+1 (240) 377-7479</a>
+              </div>
+
+            </li>
+
+			<!--
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1991-05-05">May, 1991</time>
+              </div>
+            </li>
+			-->
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>USA</address>
+              </div>
+
+            </li>
+			<li></li>
+			<li></li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/anilkolla18/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/anilkolla18" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+			<!--
+            <li class="social-item">
+              <a href="https://scholar.google.com/citations?user=2OImZegAAAAJ&hl=en" class="social-link" target="_blank">
+                <ion-icon name="school-outline"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/srsawantt/" class="social-link" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+			-->
+          </ul>
+
+        </div>
+
+      </aside>
+
+
+      <!--
+        - #main-content
+      -->
+
+      <div class="main-content">
+
+        <!-- #NAVBAR -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+        <!-- #ABOUT -->
+        <article class="about  active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello, I'm Anil Kolla, <a class="about-p-highlight">Integration Specialist</a> with over a decade of experience in API management, cloud integration, and enterprise application development. I specialize in technologies such as <a class="about-p-highlight">IBM DataPower</a>, <a class="about-p-highlight">API Connect</a>, and WebSphere MQ, with proven expertise in designing and managing API subsystems across both on-premise and multi-cloud environments. My focus on automation and DevOps has led to successful implementations using tools like Ansible, Jenkins, and UrbanCode. With a background in <a class="about-p-highlight">Service-Oriented Architecture (SOA)</a>, I ensure seamless integration and robust security for enterprise systems while continuously exploring innovative technologies to drive performance and efficiency.
+			  
+            </p>
+          </section>
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/api.png" alt="Web development icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">API Architecture & Integration</h4>
+
+                  <p class="service-item-text">
+                    I architect and deploy scalable API subsystems using IBM DataPower, API Connect, and WebSphere MQ, ensuring seamless integration of enterprise applications across on-premise and multi-cloud environments like Azure, AWS, and IBM Cloud.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/cloud.png" alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud & Hybrid Solutions</h4>
+
+                  <p class="service-item-text">
+                    I design and manage hybrid cloud infrastructures that integrate cloud-native applications and traditional enterprise systems, optimizing flexibility and performance in dynamic environments.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/security.png" alt="Research icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Security & Compliance</h4>
+
+                  <p class="service-item-text">
+                    I implement secure API solutions leveraging OAuth 2.0, SSL/TLS, and cryptographic protocols, ensuring data security and regulatory compliance across distributed architectures.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/devops.png" alt="camera icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Automation & DevOps</h4>
+
+                  <p class="service-item-text">
+                    I streamline development and deployment processes with automation tools such as Ansible, Jenkins, and UrbanCode, driving continuous integration and continuous deployment (CI/CD) for robust and efficient systems.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+        </article>
+        <!-- #RESUME -->
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Valparaiso University
+                  <span class="right-align">Valparaiso, IN, US</span>
+                </h4>
+                
+                <span class="program">Masters of Science in Computer Science;
+                  <!-- <a class="about-p-highlight" href="https://drive.google.com/file/d/19qqbzbtdmvWYMKnpVrF98UiuJxjlWtmL/view?usp=sharing" target="_blank">[degree]</a> -->
+                  <span class="right-align-gold">Jan, 2013 - May, 2014</span>
+                </span>
+
+                <p class="timeline-text">
+                  Foundations of Algorithm, Data Processing at Scale, 
+                  Deep Learning, Statistical Machine Learning, 
+                  Data Mining, Artificial Intelligence
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Chalapathi Institute of Technology, JNTUK
+                  <span class="right-align">Andhra Pradesh, India</span>
+                </h4>
+
+                <span class="program">B.Tech in Computer Science and Engineering;
+                  <span class="right-align-gold">Aug, 2008 - May, 2012</span>
+                </span>
+
+                <p class="timeline-text">
+                  C, C++, JAVA Programming, Object-Oriented Programming, Advanced Data Structures and Algorithms, Computer Architecture, 
+				  Web Technologies, Database and Management Systems, Operating Systems, 
+				  Data Structures, Unified Modeling Language, Project Management.
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+			  <!-- Canoy Soft Solutions -->
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Employer : OpenLogix Corporation
+                  <span class="right-align">Hartford, CT, USA</span>
+                </h4>
+                <h5 class="h5 timeline-item-title">Client : Aetna, CareFirst.
+                </h5>				
+                <span class="program">Role: Lead Infrastructure Engineer
+                  <span class="right-align-gold">July, 2019 - Present</span>
+                </span>
+                <ul>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                    Led the installation, configuration, and administration of IBM API Connect components (API Manager, Analytics, Developer Portal) and DataPower environments across physical, virtual(VMWare, Linux), and cloud platforms (AWS, Azure, GCP, CP4I).
+                    </p>
+                  </li>
+				  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                    Led the deployment of containerized API Connect v10 using CloudPak for Integration (CP4I) on OpenShift, overseeing the installation of operators, creation of namespaces, and setup of API subsystems (Manager, Gateway, Analytics, Portal).
+                    </p>
+                  </li>
+				  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                    Led the planning and execution of infrastructure activities, including the upgrading of API Connect and DataPower firmware from lab to production environments, ensuring smooth transitions and minimal downtime.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Managed the setup of SSL Proxy Services with mutual authentication, maintaining server and application SSL certificates for secure communication. Used F5(GTM and LTM) traffic load balancer, while leveraging Akamai for managed services and quick mitigation of external threats, and Imperva's cloud WAF for protection against SQL injection, cross-site scripting (XSS), and DDoS attacks.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Spearheaded automation using DataPower SOMA,REST interface, Python, Ansible playbooks, and YAML scripts for API Connect and DataPower system installations and configurations, streamlining deployment and reducing manual effort.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Led the setup of Topology, availability zones, routes, and backup processes (via Cron jobs) for API Connect and DataPower systems, ensuring high availability, system resilience, and disaster recovery readiness.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Led day-to-day maintenance activities, providing leadership for troubleshooting API publishing, subscriptions, IIB broker/flow, network, firewall, F5, and backend systems. Managed a 24/7 production support team to ensure operational continuity.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Oversaw the configuration and integration of API Connect and DataPower with key external systems (mail servers, LDAP, DNS, Splunk). Led the coordination of network, firewall, and F5 connectivity to ensure seamless middleware operations and external connectivity.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Led the Integration of DataPower and APIC with Splunk and DataDog for log offloading, creating dashboards for real-time monitoring of system performance (memory, CPU, and storage). Integrated SNMP for memory metrics,  to capture SNMP Traps and utilized Grafana for container health monitoring.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">Led the documentation of technical changes and infrastructure updates. Provided leadership in coordinating with development teams, offering guidance on best practices, access patterns, troubleshooting, and supporting complex infrastructure setups.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+ 			  <!-- ADT -->
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Employer : OpenLogix Corporation
+                  <span class="right-align">Irving, TX, USA</span>
+                </h4><h4 class="h4 timeline-item-title">Client : ADT Security Systems
+                </h4>
+                <span class="program">Sr. Enterprise Integration Engineer (DataPower, API Connect, IIB & MQ)
+                  <span class="right-align-gold">Sep , 2016 - June , 2019</span>
+                </span>
+                <ul>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Led the design, research, and delivery of integration solutions using IBM DataPower Appliance, IBM API Connect and IIB
+					  aligning them with business and technology strategies. Managed installation, administration, 
+					  and monitoring of DataPower appliances (XG45, XI52 and IDG).
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Developed and documented integration frameworks and standards, overseeing infrastructure 
+					  activities for DataPower environments. Implemented services for dynamic routing, message and binary transformations,
+					  while managing SSL setups, authentication, and F5 load balancing.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Configured and maintained Web Service Proxies, Multi-Protocol Gateways, XML Firewalls, and logging frameworks, 
+					  integrating various protocols like SOAP, JSON, and MQ-based services into the architecture.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Automated deployment processes using Jenkins, UrbanCode, and source control tools like GIT and SVN. 
+					  Created reusable objects for DataPower domains, streamlining setup through Ant-based scripting 
+					  for log targets, statistics, and common functions.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Served as the primary contact for external services and vendors, providing 24x7 support for production issues. 
+					  Conducted POCs for IBM API Connect and DataPower cloud integration, and supported QA testing and troubleshooting in DataPower appliances.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+ 			  <!-- DTE -->
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">DTE Energy
+                  <span class="right-align">Detroit, MI, USA</span>
+                </h4>
+                <span class="program">IBM DataPower/Message Broker Consultant
+                  <span class="right-align-gold">Feb, 2015 - Aug, 2016</span>
+                </span>
+                <ul>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Involved in Design, Develop, Configure and Unit testing the services in DataPower and Message Broker.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Implemented DataPower services like Web Service Proxy, Multi-Protocol Gateway, XMLFW and required 
+					  dependant objects like HTTP/HTTPS Handlers, XML Manager, SSL Profiles, MQ QM Objects, Crypto Cert and Key, 
+					  AAA Action, Validate Action, SLM Action, Log Targets etc..
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      with WMB(Message Broker), implemented capabilities like	Transformation, Connectivity and Mediation.
+					  Developed Message Flows which communicates with Back-end Systems including SAP, Mainframe, Databases, 
+					  Secure Transport, Cross Platform Systems to retrieve/update the information required.
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Involved in Installation, configuration, up-gradation, development, remote technical support,
+					  Troubleshooting and system administration of WebSphere MQ, WebSphere Message Broker(IIB).
+                    </p>
+                  </li>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Involved in the analysis and proof of concept (POC) of cloud computing technologies. 
+					  Worked on the early stages of implementing IBM MQ in the Azure cloud, explored Azure Service Bus and Message Bus, 
+					  used IBM Bluemix for messaging and API management.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+			  <!-- Canoy Soft Solutions -->
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Canoy Soft Solutions
+                  <span class="right-align">Hyderabad, AP, India</span>
+                </h4>
+                <span class="program">Java/J2EE Developer
+                  <span class="right-align-gold">May, 2012 - Dec, 2013</span>
+                </span>
+                <ul>
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                    Responsible for Analysis, Design, Development, Implementation and Testing of Software Applications using Java/J2EE technologies. 
+                    </p>
+                  </li>
+				  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+					Responsible for application development using Java, JDBC, Servlets, JSP, EJB-Session bean, Entity bean, JMS, Struts, Spring, Hibernate and JSF. and web applications using technologies like HTML, Java Script, AJAX, CSS, Angular JS, JSP Tag libraries, Tiles and XML. 
+                    </p>
+                  </li>
+				  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+					Responsible for writing SQL & PL/SQL programming in writing stored procedures, indexes, cursors, views and triggers and producing/consuming the Web Services that includes SOAP as well as REST using WSDL, SOAP, JAX-WS, JAX-RS, CXF and SOA. 
+                    </p>
+                  </li>
+				  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+					Responsible to use of MVC (Model View Controller) architecture, using Struts Framework, and Spring Framework with various Java/J2EE design patterns.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skill-title">My skills</h3>
+
+            <!-- 
+              Languages 
+            -->
+
+            <h5 class="h4 skill-category">Languages</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/python.png" alt="Python icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Python
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/c.png" alt="C icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                C++
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/java.png" alt="Java icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Java
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/sql.png" alt="SQL icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  SQL
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/js.png" alt="JavaScript icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  JavaScript
+                </div>
+
+              </li>
+
+            </ul>
+
+            <!-- 
+              Frameworks & Libraries 
+            -->
+
+            <h5 class="h4 skill-category">Frameworks & Libraries</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/aws.svg" alt="AWS icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  AWS Services
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/awscdk.svg" alt="AWSCDK icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  AWS CDK
+                </div>
+
+              </li>
+
+            </ul>
+
+            <!-- 
+              Tools & OS 
+            -->
+
+            <h5 class="h4 skill-category">Tools & OS</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/docker.png" alt="Docker icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Docker
+                </div>
+
+              </li>
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/apache_spark.png" alt="Apache Spark icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Apache Spark
+                </div>
+
+              </li>
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/linux.png" alt="Linux icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Linux
+                </div>
+
+              </li>
+            </ul>
+
+
+
+            <h5 class="h4 skill-category">DataBase</h5>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-icon-box">
+                  <img src="./assets/images/postgressql.png" alt="PostgresSQL" width="40">
+                </div>
+                <div class="skill-content-box">
+                  PostgresSQL
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-icon-box">
+                  <img src="./assets/images/mysql.png" alt="MySQL icon" width="40">
+                </div>
+                <div class="skill-content-box">
+                  MySQL
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-icon-box">
+                  <img src="./assets/images/db2.png" alt="MySQL icon" width="40">
+                </div>
+                <div class="skill-content-box">
+                  IBM DB2
+                </div>
+              </li>
+            </ul>
+
+          </section>
+
+          <!-- 
+            Certifications 
+          -->
+
+          <section class="certification">
+            
+            <h3 class="h3 certification-title">Certifications</h3>
+
+              <ul class="certification-list">
+
+                <li class="certification-item">
+                  <a href="https://learn.microsoft.com/en-us/users/anilkolla-7117/credentials/830715b8df1dcd23" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/azure-fundamentals.png" alt="TF icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">Azure Fundamentals</div>
+                  </a>
+                </li>
+				<!--
+                <li class="certification-item">
+                  <a href="https://coursera.org/share/6666b1ed00d2beab8f249b6e1c288f22" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/deeplearning.png" alt="Deep Learning icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Deep Learning Specialization
+                    </div>
+                  </a>
+                </li>
+
+                <li class="certification-item">
+                  <a href="https://coursera.org/share/008300fb2d29fa4d30011b32b4881192" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/umich.png" alt="University of Michigan icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Applied Machine Learning
+                    </div>
+                  </a>
+                </li> -->
+
+                <!-- <li class="certification-item">
+                  <a href="https://certificate.algoexpert.io/AE-c3da7de934" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/algoexpert.png" alt="Algoexpert icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Algoexpert
+                    </div>
+                  </a>
+                </li> -->
+
+              </ul>
+
+          </section>
+
+        </article>
+        <!-- #PORTFOLIO -->
+        <article class="projects" data-page="projects">
+
+          <!--<header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+		  -->
+
+          <!--<section class="project-posts">
+
+            <ul class="project-posts-list">-->
+			  <section class="timeline">
+				<div class="title-wrapper">
+				  <div class="icon-box">
+					<ion-icon name="book-outline"></ion-icon>
+				  </div>
+				  <h3 class="h3">Projects</h3>
+				</div>
+				<ol class="timeline-list">
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">Upgrade API Connect Firmware.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">Upgrade DataPower Firmware.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">Install API Connect in Different Flavores.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">Install DataPower in Different Flavores.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">API Connect Migration from V10 V5 Compatible to V10 Native.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">API Connect Migration from V5 to V10 V5 Compatible.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">API Connect Migration from V2018 to V10.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">API Connect Migration from V5 to V2018.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">DataCenter Migration DataPower.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">Network Migration Support: Move from 172.X IP's to 10.X IP's.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">DataPower Migration from Virtual to Container based.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">DataPower Physical to Virtual Migration.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">DataPower XI52 to IDG Migration.</h4></li>
+				  <li class="timeline-item"><h4 class="h4 timeline-item-title">DataPower XG45 to XI52 Migration.</h4></li>
+				</ol>
+			<!--  </section>
+            </ul>-->
+
+          </section>
+
+        </article>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- scripts -->
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <!-- custom js link -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
